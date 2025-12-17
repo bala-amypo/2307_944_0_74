@@ -20,6 +20,15 @@ public class Studententity {
     }
     public string getName(){
         return name;
-        
     }
+    public void setName(string name){
+        this.name=name;
+    }
+    public int getID(){
+        return id;
+    }
+    public void setID(int ID){
+        this.id=id;
+    }
+    public LocalDate getDate()
 }
