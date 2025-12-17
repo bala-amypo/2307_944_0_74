@@ -12,5 +12,14 @@ public class Studententity {
 
     }
 
-    public Studententity(string name,int id,LocalDate)
+    public Studententity(string name,int id,LocalDate date,float cgpa){
+        this.name=name;
+        this.id=id;
+        this.date=date;
+        this.cgpa=cgpa;
+    }
+    public string getName(){
+        return name;
+        
+    }
 }
